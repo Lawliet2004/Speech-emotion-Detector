@@ -1,0 +1,50 @@
+{
+  "total_clips": 7441,
+  "total_speakers": 91,
+  "emotion_counts": {
+    "angry": 1271,
+    "disgust": 1271,
+    "fear": 1271,
+    "happy": 1271,
+    "neutral": 1087,
+    "sad": 1270
+  },
+  "split_counts": {
+    "train": {
+      "clips": 5228,
+      "speakers": 64,
+      "emotion_counts": {
+        "angry": 893,
+        "disgust": 893,
+        "fear": 893,
+        "happy": 893,
+        "neutral": 764,
+        "sad": 892
+      }
+    },
+    "val": {
+      "clips": 1066,
+      "speakers": 13,
+      "emotion_counts": {
+        "angry": 182,
+        "disgust": 182,
+        "fear": 182,
+        "happy": 182,
+        "neutral": 156,
+        "sad": 182
+      }
+    },
+    "test": {
+      "clips": 1147,
+      "speakers": 14,
+      "emotion_counts": {
+        "angry": 196,
+        "disgust": 196,
+        "fear": 196,
+        "happy": 196,
+        "neutral": 167,
+        "sad": 196
+      }
+    }
+  }
+}

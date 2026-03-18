@@ -1,0 +1,311 @@
+{
+  "manifest_path": "/mnt/c/Desktop/Projects/speech emotion detection system/manifests/audio_manifest.csv",
+  "summary": {
+    "total_rows": 7441,
+    "total_speakers": 91,
+    "split_counts": {
+      "test": 1147,
+      "train": 5228,
+      "val": 1066
+    },
+    "emotion_counts": {
+      "angry": 1271,
+      "disgust": 1271,
+      "fear": 1271,
+      "happy": 1271,
+      "neutral": 1087,
+      "sad": 1270
+    },
+    "speaker_clip_count_range": {
+      "min": 76,
+      "max": 82
+    },
+    "duration_sec": {
+      "min": 1.267937,
+      "p25": 2.202187,
+      "p50": 2.5025,
+      "p75": 2.836187,
+      "p95": 3.470125,
+      "max": 5.005,
+      "iqr_outlier_bounds": {
+        "lower": 1.251187,
+        "upper": 3.787187
+      }
+    },
+    "audio_format": {
+      "expected_sample_rate": 16000,
+      "expected_channels": 1,
+      "expected_sample_width_bytes": 2
+    }
+  },
+  "checks": {
+    "duplicate_manifest_paths": [],
+    "duplicate_clip_ids": [],
+    "missing_files": [],
+    "unreadable_files": [],
+    "header_mismatches": [],
+    "split_speaker_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "exact_duplicate_audio_groups": [
+      [
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1006_TIE_HAP_XX.wav",
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1006_TIE_NEU_XX.wav"
+      ],
+      [
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1013_WSI_DIS_XX.wav",
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1013_WSI_SAD_XX.wav"
+      ],
+      [
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1017_IWW_ANG_XX.wav",
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1017_IWW_FEA_XX.wav"
+      ]
+    ],
+    "duration_outlier_count": 163
+  },
+  "breakdown": {
+    "split_emotion_counts": {
+      "test": {
+        "angry": 196,
+        "disgust": 196,
+        "fear": 196,
+        "happy": 196,
+        "neutral": 167,
+        "sad": 196
+      },
+      "train": {
+        "angry": 893,
+        "disgust": 893,
+        "fear": 893,
+        "happy": 893,
+        "neutral": 764,
+        "sad": 892
+      },
+      "val": {
+        "angry": 182,
+        "disgust": 182,
+        "fear": 182,
+        "happy": 182,
+        "neutral": 156,
+        "sad": 182
+      }
+    },
+    "speaker_clip_counts": {
+      "1001": 82,
+      "1002": 81,
+      "1003": 82,
+      "1004": 82,
+      "1005": 82,
+      "1006": 82,
+      "1007": 82,
+      "1008": 76,
+      "1009": 76,
+      "1010": 82,
+      "1011": 82,
+      "1012": 82,
+      "1013": 82,
+      "1014": 82,
+      "1015": 82,
+      "1016": 82,
+      "1017": 82,
+      "1018": 82,
+      "1019": 76,
+      "1020": 82,
+      "1021": 82,
+      "1022": 82,
+      "1023": 82,
+      "1024": 82,
+      "1025": 82,
+      "1026": 82,
+      "1027": 82,
+      "1028": 82,
+      "1029": 82,
+      "1030": 82,
+      "1031": 82,
+      "1032": 82,
+      "1033": 82,
+      "1034": 82,
+      "1035": 82,
+      "1036": 82,
+      "1037": 82,
+      "1038": 82,
+      "1039": 82,
+      "1040": 81,
+      "1041": 82,
+      "1042": 82,
+      "1043": 82,
+      "1044": 82,
+      "1045": 82,
+      "1046": 82,
+      "1047": 82,
+      "1048": 82,
+      "1049": 82,
+      "1050": 82,
+      "1051": 82,
+      "1052": 82,
+      "1053": 82,
+      "1054": 82,
+      "1055": 82,
+      "1056": 82,
+      "1057": 82,
+      "1058": 82,
+      "1059": 82,
+      "1060": 82,
+      "1061": 82,
+      "1062": 82,
+      "1063": 82,
+      "1064": 82,
+      "1065": 82,
+      "1066": 82,
+      "1067": 82,
+      "1068": 82,
+      "1069": 82,
+      "1070": 82,
+      "1071": 82,
+      "1072": 82,
+      "1073": 82,
+      "1074": 82,
+      "1075": 82,
+      "1076": 81,
+      "1077": 82,
+      "1078": 82,
+      "1079": 82,
+      "1080": 82,
+      "1081": 82,
+      "1082": 82,
+      "1083": 82,
+      "1084": 82,
+      "1085": 82,
+      "1086": 82,
+      "1087": 82,
+      "1088": 82,
+      "1089": 82,
+      "1090": 82,
+      "1091": 82
+    }
+  },
+  "samples": {
+    "duration_outliers_first_20": [
+      {
+        "clip_id": "1002_ITH_DIS_XX",
+        "duration_sec": 3.803812,
+        "split": "train"
+      },
+      {
+        "clip_id": "1003_ITH_DIS_XX",
+        "duration_sec": 4.037375,
+        "split": "train"
+      },
+      {
+        "clip_id": "1003_ITH_NEU_XX",
+        "duration_sec": 4.037375,
+        "split": "train"
+      },
+      {
+        "clip_id": "1003_IWL_DIS_XX",
+        "duration_sec": 4.404375,
+        "split": "train"
+      },
+      {
+        "clip_id": "1003_IWL_HAP_XX",
+        "duration_sec": 3.903875,
+        "split": "train"
+      },
+      {
+        "clip_id": "1003_IWL_NEU_XX",
+        "duration_sec": 3.93725,
+        "split": "train"
+      },
+      {
+        "clip_id": "1003_MTI_DIS_XX",
+        "duration_sec": 4.237563,
+        "split": "train"
+      },
+      {
+        "clip_id": "1003_TIE_DIS_XX",
+        "duration_sec": 4.270937,
+        "split": "train"
+      },
+      {
+        "clip_id": "1003_TIE_SAD_XX",
+        "duration_sec": 4.371062,
+        "split": "train"
+      },
+      {
+        "clip_id": "1003_TSI_ANG_XX",
+        "duration_sec": 3.970625,
+        "split": "train"
+      },
+      {
+        "clip_id": "1004_IEO_ANG_HI",
+        "duration_sec": 4.004,
+        "split": "val"
+      },
+      {
+        "clip_id": "1004_IEO_DIS_HI",
+        "duration_sec": 4.838188,
+        "split": "val"
+      },
+      {
+        "clip_id": "1004_IEO_SAD_HI",
+        "duration_sec": 5.005,
+        "split": "val"
+      },
+      {
+        "clip_id": "1004_IEO_SAD_MD",
+        "duration_sec": 4.037375,
+        "split": "val"
+      },
+      {
+        "clip_id": "1004_IWL_NEU_XX",
+        "duration_sec": 3.903875,
+        "split": "val"
+      },
+      {
+        "clip_id": "1004_TAI_DIS_XX",
+        "duration_sec": 3.903875,
+        "split": "val"
+      },
+      {
+        "clip_id": "1004_TIE_DIS_XX",
+        "duration_sec": 4.337688,
+        "split": "val"
+      },
+      {
+        "clip_id": "1005_MTI_DIS_XX",
+        "duration_sec": 3.93725,
+        "split": "train"
+      },
+      {
+        "clip_id": "1005_TIE_HAP_XX",
+        "duration_sec": 4.204187,
+        "split": "train"
+      },
+      {
+        "clip_id": "1005_TIE_SAD_XX",
+        "duration_sec": 4.704688,
+        "split": "train"
+      }
+    ],
+    "duplicate_audio_groups_first_20": [
+      [
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1006_TIE_HAP_XX.wav",
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1006_TIE_NEU_XX.wav"
+      ],
+      [
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1013_WSI_DIS_XX.wav",
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1013_WSI_SAD_XX.wav"
+      ],
+      [
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1017_IWW_ANG_XX.wav",
+        "/mnt/c/Desktop/Projects/speech emotion detection system/AudioWAV/1017_IWW_FEA_XX.wav"
+      ]
+    ]
+  },
+  "issues": [
+    "Exact duplicate audio groups found: 3"
+  ],
+  "status": "review"
+}
