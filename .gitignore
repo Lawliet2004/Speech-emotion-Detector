@@ -1,35 +1,12 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-*.egg
-dist/
-build/
-
-# Virtual environment
-Python310/
-venv/
-.env/
-
-# Large data & audio files (too big for GitHub)
 AudioWAV/
-data/
+data/processed_audio/
+artifacts/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.h5
 *.pkl
-
-# Model artifacts (large binary files)
-artifacts/
-
-# Temp / debug files
-debug_*.py
 debug_*.txt
-test_pipeline.py
-run_with_fh.py
-*.log
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# OS
-Thumbs.db
-.DS_Store
+debug_train_log.txt
+debug_log2.txt
